@@ -1,25 +1,30 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "name": "Andrii Ivanytskyi",
+    "role": "full stack developer and freelancer",
+    "linkedinId":"andrii-ivanytskyi-2946a2b4",
+    "skypeid": "andriiivanytskyi",
+    "roleDescription": "I like to evolve brands and create engaging websites with purpose.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
+          "url":"https://www.linkedin.com/in/andrii-ivanytskyi-2946a2b4/",
+          "className":"fa fa-linkedin",
+        },
+        {
+          "name":"mail",
+          "url":"andriiivanytskyi@gmail.com",
+          "className":"fa fa-envelope-o",
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
-          "className":"fa fa-github"
+          "url":"https://github.com/Serber92",
+          "className":"fa fa-github",
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"facebook",
+          "url":"https://www.facebook.com/andrey.ivanytskii",
+          "className":"fa fa-facebook",
         }
       ],
     "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
