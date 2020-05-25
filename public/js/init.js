@@ -102,9 +102,10 @@
 /*	Modal Popup
 ------------------------------------------------------*/
 
-    $('.item-wrap a').magnificPopup({
+    $('.item-wrap').magnificPopup({
 
-       type:'inline',
+       delegate: 'a',
+       type:'image',
        fixedContentPos: false,
        removalDelay: 200,
        showCloseBtn: false,
@@ -114,7 +115,7 @@
 
     $(document).on('click', '.popup-modal-dismiss', function (e) {
     		e.preventDefault();
-    		$.magnificPopup.close();
+         $.magnificPopup.close();
     });
 
 

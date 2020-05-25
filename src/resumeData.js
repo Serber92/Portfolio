@@ -52,24 +52,24 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"American Budiness Data Science",
+        "description":"American Business Data Science is the online leader in helping data science students and recent graduates launch and advance their careers in data science and in helping business professionals learn data science, so they can bring its benefits to their organizations. We provide proprietary tools so you can achieve your goals on a fast track.",
+        "imgurl":"images/portfolio/abds.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Code Safe",
+        "description":"Django/SQL app",
+        "imgurl":"images/portfolio/safe.jpg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Northstar",
+        "description":"Ecommerce Database",  
+        "imgurl":"images/portfolio/northstar.jpg"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Alexa Skill",
+        "description":"This skill is meant to help Tampa Bay commuters plan for unexpected closures of the Sunshine Skyway Bridge. Skill application collects data from www.skywaybridgestatus.com.",
+        "imgurl":"images/portfolio/skyway.png"
       }
     ],
     "testimonials":[
