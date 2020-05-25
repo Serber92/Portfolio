@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Andrii Ivanytskyi",
-    "role": "full stack developer and freelancer",
+    "role": "Software Developer",
     "linkedinId":"andrii-ivanytskyi-2946a2b4",
     "skypeid": "andriiivanytskyi",
     "roleDescription": "I like to evolve brands and create engaging websites with purpose.",
@@ -13,65 +13,41 @@ let resumeData = {
         },
         {
           "name":"mail",
-          "url":"andriiivanytskyi@gmail.com",
+          "url":"mailto:andriiivanytskyi@gmail.com",
           "className":"fa fa-envelope-o",
         },
         {
           "name":"github",
           "url":"https://github.com/Serber92",
           "className":"fa fa-github",
-        },
-        {
-          "name":"facebook",
-          "url":"https://www.facebook.com/andrey.ivanytskii",
-          "className":"fa fa-facebook",
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a Software Developer with a background in Computer Science.",
+    "address":"Seattle, WA",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
+        "UniversityName":"Vinnitsa National Technical University",
+        "specialization":"Bachelor's degree, Computer Science, 4",
         "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2013",
+        "Achievements":"Dissertation titled “Destructive tweets in the network of social bookmarking: risk models of distribution, perception and identification”, 2013. Published in University Journal, June 2013."
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Coding Dojo",
+        "specialization":"Full stack development",
+        "MonthOfPassing":"Feb",
+        "YearOfPassing":"2020",
+        "Achievements":"3 Full stacks: Django/Flask, .NET, MEAN"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"American Business Data Science",
+        "specialization":"Front-end developer",
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
+        "CompanyName":"Silver Bay Seafoods",
+        "specialization":"Full stack developer",
       }
     ],
     "portfolio":[

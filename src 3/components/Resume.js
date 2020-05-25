@@ -58,6 +58,7 @@ export default  class Resume extends Component {
               }
             </div> 
          </div>
+
       </section>
     );
   }
