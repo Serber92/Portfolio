@@ -17,6 +17,12 @@ export default class ContactUs extends Component {
                 <h4>Linked in :
                   {resumeData.linkedinId}
                 </h4>
+                <h4>Upwork :
+                  {resumeData.upworkId}
+                </h4>
+                <h4>Email :
+                  {resumeData.email}
+                </h4>
               </div>
             </aside>
           </div>

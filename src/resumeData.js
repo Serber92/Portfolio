@@ -3,7 +3,9 @@ let resumeData = {
     "name": "Andrii Ivanytskyi",
     "role": "Software Developer",
     "linkedinId":"andrii-ivanytskyi-2946a2b4",
+    "upworkId":"~0151d3d207a966ce44",
     "skypeid": "andriiivanytskyi",
+    "email":"andriiivanytskyi@gmail.com",
     "roleDescription": "I like to evolve brands and create engaging websites with purpose.",
     "socialLinks":[
         {
@@ -73,14 +75,6 @@ let resumeData = {
       }
     ],
     "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
     ]
   }
   

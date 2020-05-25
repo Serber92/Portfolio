@@ -1,4 +1,25 @@
 import React, { Component } from 'react';
+import Typing from 'react-typing-animation';
+
+const AnimatedTypingComponent = () => (
+   <Typing speed={50}>
+    <div>
+    <h1 className="responsive-headline">Well, hello there!</h1>
+      <Typing.Delay ms={2000} />
+      <Typing.Backspace count={18}/>
+    <h1 className="responsive-headline">I build great apps with React and Angular</h1>
+      <Typing.Delay ms={4000} />
+      <Typing.Backspace count={17} />
+    <h1 className="responsive-headline">Amazon serverless</h1>
+      <Typing.Delay ms={4000} />
+      <Typing.Backspace count={18} />
+    <h1 className="responsive-headline">Node and Flask</h1>
+      <Typing.Delay ms={4000} />
+      <Typing.Backspace count={20} />
+    </div>
+   </Typing>
+ );
+
 export default class Header extends Component {
 
   render() {
@@ -24,7 +45,7 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">Well, hello there!</h1>
+              <AnimatedTypingComponent />
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Thanks for taking a look at my website! I am a {resumeData.role}. {resumeData.roleDescription}
                </h3>
                <hr/>
