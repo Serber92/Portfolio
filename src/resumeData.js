@@ -59,19 +59,19 @@ let resumeData = {
         "imgurl":"images/portfolio/abds.jpg"
       },
       {
-        "name":"Code Safe",
-        "description":"Django/SQL app",
-        "imgurl":"images/portfolio/safe.jpg"
-      },
-      {
-        "name":"Northstar",
-        "description":"Ecommerce Database",  
-        "imgurl":"images/portfolio/northstar.jpg"
+        "name":"Designers teams",
+        "description":"Groups messaging app.",
+        "imgurl":"images/portfolio/dark.jpg"
       },
       {
         "name":"Alexa Skill",
         "description":"This skill is meant to help Tampa Bay commuters plan for unexpected closures of the Sunshine Skyway Bridge. Skill application collects data from www.skywaybridgestatus.com.",
         "imgurl":"images/portfolio/skyway.png"
+      },
+      {
+        "name":"Northstar",
+        "description":"Ecommerce Database",  
+        "imgurl":"images/portfolio/northstar.jpg"
       }
     ],
     "testimonials":[
