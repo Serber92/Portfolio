@@ -23,7 +23,8 @@ let resumeData = {
           "className":"fa fa-github",
         }
       ],
-    "aboutme":"I am a Software Developer with a background in Computer Science.",
+    "aboutme_first":"I am a Software Developer with a background in Computer Science.",
+    "aboutme_second":"My professional carrer is mainly in Python, Node and Javascript. My favorite frameworks are Flask, Node/Express, React and Angular.",
     "address":"Seattle, WA",
     "education":[
       {
