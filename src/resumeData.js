@@ -75,6 +75,22 @@ let resumeData = {
       }
     ],
     "testimonials":[
+      {
+        'description': "He was awesome and did an amazing job. Truly made the right choice by picking Andrii for the project.",
+        'name': "Maxime S @ CompData Solutions"
+      },
+      {
+        'description': "Professional, precise and creative: I definitely suggest Andrii as graphic design of your works! Hope to collaborate again in the future!",
+        'name': "Anton @ UpWork"
+      },
+      {
+        'description': "We have been working with Andrii for a long time. He is fast, clever and organised, and extemely good at access database. He has built a system, which have now been in use for a year, and is a crucial part of the business process. Thanks Andrii!",
+        'name': "Louis @ UpWork"
+      },
+      {
+        'description': "Andrii is a good communicator and a diligent collaborator.",
+        'name': "Michelle @ UpWork"
+      },
     ]
   }
   

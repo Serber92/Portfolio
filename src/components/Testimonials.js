@@ -13,9 +13,9 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
+                    resumeData.testimonials && resumeData.testimonials.map((item, i)=>{
                       return(
-                        <li>
+                        <li key={i}>
                           <blockquote>
                             <p>
                             {item.description}
