@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
-
 export default class ContactUs extends Component {
     constructor(props){
         super(props);
@@ -28,19 +25,34 @@ export default class ContactUs extends Component {
       }
 
     handleSubmit(event) {
-        const msg = {
-            to: 'test@example.com',
-            from: 'test@example.com',
-            subject: "Message from Portfolio",
-            text: this.state.message,
-            html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-        };
-        sgMail.send(msg);
         event.preventDefault();
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+                name: this.state.name,
+                email: this.state.email,
+                phone: this.state.phone,
+                message: this.state.message
+             })
+        };
+        fetch('https://andriiivanytskyi.com/form_submit', requestOptions)
+            .then(response => {
+                if (response.status === 200){
+                    this.setState({
+                        name: "",
+                        email: "",
+                        phone: "",
+                        message: "",
+                    });
+                    console.log('message sent')
+                }
+            }).catch((error) => {
+                console.log(error.response.body)
+            })
     }
 
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <section id="contact">
           <div className="container">
