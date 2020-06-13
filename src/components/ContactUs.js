@@ -36,7 +36,7 @@ export default class ContactUs extends Component {
                 message: this.state.message
              })
         };
-        fetch('http://127.0.0.1:8000/form_submit', requestOptions)
+        fetch('http://localhost:8000/form_submit', requestOptions)
             .then(response => {
                 if (response.status === 200){
                     this.setState({
