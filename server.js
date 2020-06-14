@@ -7,8 +7,12 @@ sgMail.setApiKey('SG.g8rd6G_GQIWMvzkWaoa-Kg.mu7qwqCvR6acoD7eUkBITTU_9wtkwR1hcQLm
 app.use(express.json()) 
 app.use (express.urlencoded({extended: false}))
 
+app.get('/api',(request, response ) => {
+	response.send("ROOT");
+});
 
-app.post('/form_submit', (request, response) => {
+
+app.post('/api/form_submit', (request, response) => {
   var data = request.body;
   const msg = {
       to: 'dartuarob@gmail.com',
@@ -25,4 +29,4 @@ app.post('/form_submit', (request, response) => {
   response.sendStatus(200);
 });
 
-app.listen(8000, () => console.log("listening on port 8000"));
+app.listen(5000, () => console.log("listening on port 5000"));
