@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey('###');
 
 app.use(express.json()) 
 app.use (express.urlencoded({extended: false}))
