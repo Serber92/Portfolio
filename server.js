@@ -15,8 +15,8 @@ app.get('/api',(request, response ) => {
 app.post('/api/form_submit', (request, response) => {
   var data = request.body;
   const msg = {
-      to: 'dartuarob@gmail.com',
-      from: 'dartuarob@gmail.com',
+      to: '',
+      from: '',
       subject: 'Message from Portfolio',
       html: '<h3><strong>From ' + data.name + '</strong> </h3>' +'<h4><strong>' + data.email + '</strong></h4>' + '<h4><strong>' + data.phone + '</strong></h4>' + "<p>" + data.message + '</p>',
   };
